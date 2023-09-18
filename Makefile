@@ -10,14 +10,16 @@ windows:
 et:
 	rustup target list
 
-
-# [target.x86_64-unknown-linux-gnu]
-# linker = "x86_64-unknown-linux-gnu-gcc"
+up:
+	rustup update
 
 addt:
 	rustup target add x86_64-unknown-linux-musl
 	rustup target add x86_64-unknown-linux-gnu
 
-up:
-	rustup update
+# /Users/interface/.cargo/config
+# [target.x86_64-unknown-linux-gnu]
+# linker = "x86_64-unknown-linux-gnu-gcc"
+
+
 
